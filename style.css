@@ -75,6 +75,12 @@ font-size: 22px;
 font-weight: normal;
 }
 
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
 .products {
 background-color: #F4F4FD;
 padding-top: 150px;
