@@ -93,7 +93,7 @@ padding-bottom: 250px;
   width: 650px;
 }
 
-.product-li{
+.product-item{
   display: flex;
   align-items: center;
   flex-direction: row
