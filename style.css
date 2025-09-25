@@ -90,6 +90,10 @@ margin-bottom: 100px
   gap: 20px;
 }
 
+.logo-div {
+  margin-right: 150px;
+}
+
 .item-h2 {
     font-size: 30px;
     font-family: sans-serif;
@@ -113,4 +117,12 @@ margin-bottom: 100px
   weight: 225px;
   height: 55px;
   color: #3b8ad0;
+}
+
+.link-text {
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+    
+  
 }
