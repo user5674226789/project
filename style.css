@@ -82,5 +82,26 @@ padding-bottom: 250px;
 }
 
 .product-image{
-  
+  width: 750px;
 }
+
+.xiaomi-img {
+  width: 500px;
+}
+
+.iphone-img {
+  width: 650px;
+}
+
+.product-li{
+  display: flex;
+  align-items: center;
+  flex-direction: row
+}
+
+.samsung-li{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse
+}
+
