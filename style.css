@@ -82,15 +82,15 @@ padding-bottom: 250px;
 }
 
 .product-image{
-  width: 750px;
+  width: 850px;
 }
 
 #xiaomi-img {
-  width: 500px;
+  width: 600px;
 }
 
 #iphone-img {
-  width: 650px;
+  width: 750pxpx;
 }
 
 .product-item{
@@ -104,4 +104,23 @@ padding-bottom: 250px;
   align-items: center;
   flex-direction: row-reverse
 }
+
+.item-h2 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.item-p {
+  font-size: 30px;  
+}
+
+item-button {
+    width: 350px;
+    height: 80px;
+    border-radius: 25px;
+    background-color: #3b8ad0;
+    border: transparent;
+}
+
+
 
