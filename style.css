@@ -75,7 +75,18 @@ font-size: 22px;
 font-weight: normal;
 }
 
+.products {
+margin-top: 100px;
+margin-bottom: 100px
+}
+
 .product-image {
   width:400px;
   height:400px;
 }
+
+products-list {
+  display: flex;
+  gap: 100px;
+}
+
