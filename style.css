@@ -114,12 +114,20 @@ padding-bottom: 150px;
   font-size: 30px;  
 }
 
-item-button {
+.item-button {
     width: 350px;
     height: 80px;
     border-radius: 25px;
     background-color: #3b8ad0;
     border: transparent;
+}
+.item-button:hover {
+      background-color: #3b8ad0;
+}
+ 
+
+.link-text {
+  
 }
 
 
