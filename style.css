@@ -1,33 +1,33 @@
 ul,
 ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;  
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 img {
-  display: block;
+    display: block;
 }
 
 button {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 li {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-.header { 
-background-color: #3b8ad0;
+.header {
+    background-color: #3b8ad0;
 }
 
 .container {
@@ -37,62 +37,65 @@ background-color: #3b8ad0;
 }
 
 .nav {
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-.title {
-margin: 25px 0 0;
-font-size: 36px;
-font-weight: normal;
-color: white;
-text-decoration: none;
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
-
-.subtitle {
-margin: 0 0 25px 0;
-color: white;
-font-size: 24px;
-font-weight: normal;
-text-decoration: none;
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
-
-.nav-list {
-margin-left: 150px;
-display: flex;
-gap: 60px;
-}
-
-.nav-link {
-color: white;
-text-decoration: none;
-font-size: 22px;
-font-weight: normal;
-}
-
-.products {
-margin-top: 100px;
-margin-bottom: 100px
-}
-
-.product-image {
-  width:400px;
-  height:400px;
-}
-
-.products-list {
-  display: flex;
-  gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo-div {
-  margin-right: 150px;
+    margin-right: 150px;
 }
+
+.title {
+    margin: 25px 0 0;
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.subtitle {
+    margin: 0 0 25px 0;
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+    /* text-decoration: none; - Убрано, так как это не ссылка */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-list {
+    margin-left: 150px;
+    display: flex;
+    gap: 60px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.products {
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+
+.product-image {
+  
+    width: 300px; 
+    height: 300px;
+}
+
+
+.products-list {
+    display: flex; /* Обеспечивает горизонтальное расположение */
+    justify-content: space-between; /* Распределяет товары по ширине */
+    gap: 100px; /* Увеличенный разрыв между товарами */
+}
+
 
 .item-h2 {
     font-size: 30px;
@@ -102,10 +105,10 @@ margin-bottom: 100px
 }
 
 .product-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .item-p {
     font-size: 21px;
@@ -114,14 +117,15 @@ margin-bottom: 100px
 }
 
 .item-button {
-  width: 225px;
-  height: 55px;
-  background-color: #3b8ad0;
-  border: transparent;
+    width: 225px;
+    height: 55px;
+    background-color: #3b8ad0;
+    border: transparent;
+    margin-top: 15px; 
 }
 
 .link-text {
-  font-weight: 600;
-  font-size: 25px;
-  color: white;
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
 }
