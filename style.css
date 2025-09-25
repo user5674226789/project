@@ -87,7 +87,7 @@ margin-bottom: 100px
 
 .products-list {
   display: flex;
-  gap: 100px;
+  gap: 20px;
 }
 
 .product-h2 {
