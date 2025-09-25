@@ -120,6 +120,7 @@ padding-bottom: 150px;
 .item-h2 {
   font-size: 40px;
   margin: 0;
+  max-width: 300px
 }
 
 .item-p {
