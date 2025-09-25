@@ -121,13 +121,16 @@ padding-bottom: 150px;
     background-color: #3b8ad0;
     border: transparent;
 }
+
 .item-button:hover {
       background-color: #48739a;
 }
  
 
 .link-text {
-  
+    font-size: 30px;
+    color: white;
+}
 }
 
 
