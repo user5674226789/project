@@ -85,11 +85,11 @@ padding-bottom: 250px;
   width: 750px;
 }
 
-.xiaomi-img {
+#xiaomi-img {
   width: 500px;
 }
 
-.iphone-img {
+#iphone-img {
   width: 650px;
 }
 
@@ -99,7 +99,7 @@ padding-bottom: 250px;
   flex-direction: row
 }
 
-.samsung-li{
+#samsung-li{
   display: flex;
   align-items: center;
   flex-direction: row-reverse
