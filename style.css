@@ -75,7 +75,7 @@ font-size: 22px;
 font-weight: normal;
 }
 
-.product-list {
+.products-list {
     display: flex;
     flex-direction: column;
     gap: 70px;
