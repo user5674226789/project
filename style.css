@@ -83,13 +83,6 @@ body {
     margin-bottom: 100px
 }
 
-.product-image {
-  
-    width: 300px; 
-    height: 300px;
-}
-
-
 .products-list {
     display: flex; 
     justify-content: space-between; 
