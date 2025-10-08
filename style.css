@@ -184,3 +184,17 @@ address {
 .social-link:focus {
     color: #3b8ad0;
 }
+.product-image {
+    width: 100%; 
+    height: 300px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border-radius: 6px;
+}
+
+
+
+
